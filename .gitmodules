@@ -1,0 +1,3 @@
+[submodule "References/Eto"]
+	path = References/Eto
+	url = https://github.com/picoe/Eto.git

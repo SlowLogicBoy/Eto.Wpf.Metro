@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eto.Wpf.Metro", "Eto.Wpf.Metro\Eto.Wpf.Metro.csproj", "{063C3B88-7C8E-469C-8D2B-F7BAD4D5A7FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "References", "References", "{72C1646B-4113-4118-AF00-EBA254DDC973}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eto - pcl", "..\References\Eto\Source\Eto\Eto - pcl.csproj", "{35EF0A4E-2A1A-492C-8BED-106774EA09F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eto.Wpf - net45", "..\References\Eto\Source\Eto.Wpf\Eto.Wpf - net45.csproj", "{63137FA0-CA55-11E3-9C1A-0800200C9A66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{063C3B88-7C8E-469C-8D2B-F7BAD4D5A7FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{063C3B88-7C8E-469C-8D2B-F7BAD4D5A7FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{063C3B88-7C8E-469C-8D2B-F7BAD4D5A7FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{063C3B88-7C8E-469C-8D2B-F7BAD4D5A7FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35EF0A4E-2A1A-492C-8BED-106774EA09F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35EF0A4E-2A1A-492C-8BED-106774EA09F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35EF0A4E-2A1A-492C-8BED-106774EA09F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35EF0A4E-2A1A-492C-8BED-106774EA09F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63137FA0-CA55-11E3-9C1A-0800200C9A66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63137FA0-CA55-11E3-9C1A-0800200C9A66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63137FA0-CA55-11E3-9C1A-0800200C9A66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63137FA0-CA55-11E3-9C1A-0800200C9A66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{35EF0A4E-2A1A-492C-8BED-106774EA09F2} = {72C1646B-4113-4118-AF00-EBA254DDC973}
+		{63137FA0-CA55-11E3-9C1A-0800200C9A66} = {72C1646B-4113-4118-AF00-EBA254DDC973}
+	EndGlobalSection
+EndGlobal
